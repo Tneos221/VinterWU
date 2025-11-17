@@ -35,7 +35,7 @@ Under arbetets gång skall arbetet syncas mot GitHub. Detta gör vi för att bå
 Du skall **minst göra en push** till GitHub **efter varje lektion** \[fr.o.m. v.47\] men kan med fördel pusha om du gör en större förändring på sidan med. Slutinlämning av webbsidan görs som en Push till GitHub med kommentaren **“Inlämning”**.
 
 **Hur kommer jag igång?**  
-Gör en fork/gaffel på följande sida [https://github.com/ntijoh/VinterWU](https://github.com/ntijoh/kundenhar2024). I GitHub for Desktop programvaran väljer du sedan att göra en cloning av din fork/gaffel **(command+shift+o)**. Om du inte ser den kan du behöva göra en refresh med ikonen med cirkeln. 
+Gör en fork/gaffel på följande sida [https://github.com/ntijoh/VinterWU](https://github.com/ntijoh/VinterWU). I GitHub for Desktop programvaran väljer du sedan att göra en cloning av din fork/gaffel **(command+shift+o)**. Om du inte ser den kan du behöva göra en refresh med ikonen med cirkeln. 
 
 **Dokumentation**  
 Ditt projekt skall dokumenteras (varje vecka efter/under lektion) och lämnas in på classroom som en klassisk inlämning. Tänk på att dokumentationen skall visa en process och dina beslut längs vägen. Ta gärna skärmbilder för att beskriva arbetets process. (CMD+SHIFT+4 för mac/print screen för windows)  
