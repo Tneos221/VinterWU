@@ -1,0 +1,79 @@
+#sida1 {
+  display: grid;
+  height: 100vh;
+  gap: 10px;
+  padding: 10px;
+  background-color: #f39c12;
+  grid-template-columns: 15% auto 15%;
+  grid-template-rows: 15% auto 20%;
+  grid-template-areas:
+    "hd hd nav"
+    "as mn mn"
+    "ft ft ft";
+}
+
+
+header {
+  grid-area: hd;
+  background: #2c3e50;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+nav {
+  grid-area: nav;
+  background: #34495e;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+aside {
+  grid-area: as;
+  background: #ecf0f1;
+  color: black;
+  font-size: 1.1rem;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+main {
+  grid-area: mn;
+  background: #3498db;
+  color: white;
+  font-size: 1.3rem;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+footer {
+  grid-area: ft;
+  background: #2c3e50;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
