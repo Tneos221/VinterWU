@@ -88,6 +88,10 @@ body {
   margin: 0;
 }
 
+#circle{
+width: 150%;
+height: 100%;
+}
 #sida2{
  display: grid;
     height: 100vh;
