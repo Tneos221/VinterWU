@@ -25,6 +25,10 @@ header {
   align-items: center;
 }
 
+a {
+    color: #e7e9eb; 
+    text-decoration: none; 
+  }
 
 nav {
   grid-area: nav;
@@ -36,6 +40,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
 
@@ -96,6 +101,11 @@ body {
         "as mn mn"
         "as mn2 mn2"
         "ft ft ft";
+
+a {
+    color: #dde2e8; 
+    text-decoration: none; 
+}
 
 
 header{
@@ -173,7 +183,12 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
-
+  gap: 10px;
+}
+#finances{
+  width: 110%;
+  height: 110%;
+  border-radius: 20px;
 }
 
 }
@@ -184,13 +199,19 @@ nav{
   gap: 10px;
   padding: 10px;
   background-color: #f39c12;
-  grid-template-columns: 15% auto 15%;
-  grid-template-rows: 15% auto 20%;
+  grid-template-columns: 15% 1fr 1fr 20%;
+  grid-template-rows: 15% auto auto 20%;
   grid-template-areas:
-    "hd hd nav nav"
+    "hd hd hd nav"
     "as mn mn mn"
-    "mn mn mn as"
+    "nm nm nm sa"
     "ft ft ft ft";
+}
+a {
+    color: #dde2e8; 
+    text-decoration: none; 
+}
+
 
 header{
   grid-area: hd;
@@ -219,6 +240,18 @@ main{
 
 }
 
+#main23{
+ grid-area: nm;
+  background: #3498db;
+  color: white;
+  font-size: 1.3rem;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 
 aside{
   grid-area: as;
@@ -231,6 +264,19 @@ aside{
   justify-content: center;
   align-items: center;
 
+}
+
+#aside23{
+ grid-area: sa;
+  background: #ecf0f1;
+  color: black;
+  font-size: 1.1rem;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 footer{
@@ -254,8 +300,17 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
-
+ gap: 10px;
 }
 
+#woman{
+  width: 120%;
+  height: 120%;
+  border-radius: 20px;
 }
 
+#man{
+  width: 127%;
+  height: 127%;
+  border-radius: 20px;
+}
